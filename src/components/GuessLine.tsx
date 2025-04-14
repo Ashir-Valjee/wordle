@@ -1,4 +1,10 @@
-export default function GuessLine({ guess, solution, isFinal }) {
+interface GuessProps {
+  guess: string;
+  solution: string;
+  isFinal: boolean;
+}
+
+export default function GuessLine({ guess, solution, isFinal }: GuessProps) {
   return (
     <>
       <div className="line">
