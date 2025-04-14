@@ -1,11 +1,6 @@
 import "./wordle.css";
 import GuessLine from "./GuessLine";
-import {
-  WORD_LENGTH,
-  WORD_LIST_API_URL,
-  NUM_GUESSES,
-  MY_WORDS,
-} from "../utility/lib";
+import { WORD_LENGTH, NUM_GUESSES, MY_WORDS } from "../utility/lib";
 import { useState, useEffect } from "react";
 
 export default function Wordle() {
